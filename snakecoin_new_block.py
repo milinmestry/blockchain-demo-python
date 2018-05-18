@@ -1,3 +1,6 @@
+import datetime as date
+from snakecoin_block import Block
+
 def next_block(lastBlock):
   thisIndex = lastBlock.index + 1
   thisTimestamp = date.datetime.now()
